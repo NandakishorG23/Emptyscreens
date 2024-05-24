@@ -87,7 +87,7 @@ const styles = StyleSheet.create({
     letterSpacing: 0.02,
     textAlign: 'left',
     color: '#400869',
-    marginLeft: 10, // Add some space between the vector image and text
+    marginLeft: 10, 
     
   },
   imageContainer: {
@@ -98,8 +98,8 @@ const styles = StyleSheet.create({
   vector: {
     width: 21,
     height: 18,
-    marginLeft: 5, // Add some space between the container and the vector image
-    marginRight: 5, // Add some space between the vector image and text
+    marginLeft: 5, 
+    marginRight: 5,
     transform: [{ rotate: '360deg' }],
     
   },
@@ -116,7 +116,7 @@ const styles = StyleSheet.create({
     lineHeight: 18,
     textAlign: 'center',
     color: '#888888',
-    marginTop: 20, // Add some space between the image and the text
+    marginTop: 20, 
   },
 });
 
