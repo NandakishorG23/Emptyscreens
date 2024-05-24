@@ -46,7 +46,7 @@ const RecordLabel: React.FC = () => {
       </View>
       <View style={styles.imageContainer}>
         <Image
-          source={require('@/assets/images/Nointernet.png')} // Update the path to your image file
+          source={require('@/assets/images/Nointernet.png')} 
           style={styles.image}
         />
         <Text style={styles.sessionText}>You have not completed any session</Text>
@@ -54,25 +54,25 @@ const RecordLabel: React.FC = () => {
       <View style={styles.bottomContainer}>
         <TouchableOpacity onPress={handleNavigation}>
           <Image
-            source={require('@/assets/images/Homepage.png')} // Update the path to your image file
+            source={require('@/assets/images/Homepage.png')} 
             style={styles.bottomImage}
           />
         </TouchableOpacity>
         <TouchableOpacity onPress={handleNavigation}>
           <Image
-            source={require('@/assets/images/Appointment.png')} // Update the path to your image file
+            source={require('@/assets/images/Appointment.png')} 
             style={styles.bottomImage}
           />
         </TouchableOpacity>
         <TouchableOpacity onPress={handleNavigation}>
           <Image
-            source={require('@/assets/images/Recording.png')} // Update the path to your image file
+            source={require('@/assets/images/Recording.png')} 
             style={styles.bottomImage}
           />
         </TouchableOpacity>
         <TouchableOpacity onPress={handleNavigation}>
           <Image
-            source={require('@/assets/images/Healthprofile.png')} // Update the path to your image file
+            source={require('@/assets/images/Healthprofile.png')} 
             style={styles.bottomImage}
           />
         </TouchableOpacity>
