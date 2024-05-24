@@ -47,7 +47,7 @@ const MyCart = () => {
       <View style={styles.container}>
         {/* <Pressable onPress={handleNavigation}> */}
           <Image
-            source={require('@/assets/images/Vector.png')} // Update the path to your image file
+            source={require('@/assets/images/Vector.png')} 
             style={styles.vector}
           />
         {/* </Pressable> */}
@@ -55,7 +55,7 @@ const MyCart = () => {
       </View>
       <View style={styles.imageContainer}>
         <Image
-          source={require('@/assets/images/Noappointment.png')} // Update the path to your image file
+          source={require('@/assets/images/Noappointment.png')} 
           style={styles.image}
         />
         <Text style={styles.sessionText}>Your Cart is Empty</Text>
